@@ -3,29 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lp</string>
+	<string>t11</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#Class#&gt; *)&lt;#property#&gt; {
-    if (_&lt;#property#&gt; == nil) {
-        _&lt;#property#&gt; = [&lt;#Class#&gt; new];
-    }
-    return _&lt;#property#&gt;;
+	<string>_tableView.estimatedRowHeight = 0;
+_tableView.estimatedSectionHeaderHeight = 0;
+_tableView.estimatedSectionFooterHeight = 0;
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    return nil;
+}
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+    return nil;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C10FDDC3-630E-41BA-81F9-17B0EF3C2100</string>
+	<string>E213B656-BB8D-4197-A519-A291BC26A5F1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>lp</string>
+	<string>t11</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>lazy property</string>
+	<string>fix ios11 tableView-t11</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
