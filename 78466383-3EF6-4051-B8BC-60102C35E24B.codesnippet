@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lb</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)&lt;#button#&gt; {
+    if (_&lt;#button#&gt; == nil) {
+        _&lt;#button#&gt; = [UIButton new];
+        [_&lt;#button#&gt; setTitleColor:[UIColor kep_colorFromHex:&lt;#0x333333#&gt;] forState:UIControlStateNormal];
+        [_&lt;#button#&gt; setBackgroundColor:[UIColor kep_colorFromHex:&lt;#0x333333#&gt;]];
+        [_&lt;#button#&gt; setTitle:KEPLocalizedString(@"&lt;#Button#&gt;") forState:UIControlStateNormal];
+        [_&lt;#button#&gt;.titleLabel setFont:[UIFont kep_regularPingFangSCWithSize:&lt;#18#&gt;]];
+    }
+    return _&lt;#button#&gt;;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>78466383-3EF6-4051-B8BC-60102C35E24B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>lb</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazy button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
