@@ -3,29 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>t11</string>
+	<string>gcdm</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>_tableView.estimatedRowHeight = 0;
-_tableView.estimatedSectionHeaderHeight = 0;
-_tableView.estimatedSectionFooterHeight = 0;
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    return nil;
-}
-- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
-    return nil;
-}</string>
+	<string>dispatch_async(dispatch_get_main_queue(), ^{
+            
+        });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E213B656-BB8D-4197-A519-A291BC26A5F1</string>
+	<string>49A6A9A4-7AF7-4C8A-8D2C-1844AE9C7BE4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>t11</string>
+	<string>gcdm</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>fix ios11 tableView-t11</string>
+	<string>gcd: Main</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

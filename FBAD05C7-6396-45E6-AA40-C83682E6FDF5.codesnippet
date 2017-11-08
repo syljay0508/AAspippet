@@ -3,29 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>t11</string>
+	<string>gl</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>_tableView.estimatedRowHeight = 0;
-_tableView.estimatedSectionHeaderHeight = 0;
-_tableView.estimatedSectionFooterHeight = 0;
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    return nil;
-}
-- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
-    return nil;
+	<string>- (CAGradientLayer *)gradientLayer {
+    if (_gradientLayer == nil) {
+        _gradientLayer = [CAGradientLayer new];
+        _gradientLayer.colors = @[(__bridge id)[UIColor kep_colorFromHex:0x584f60 alpha:0.2].CGColor, (__bridge id)[UIColor kep_colorFromHex:0x584f60 alpha:0.8].CGColor];
+        _gradientLayer.startPoint = CGPointMake(0.f, 0.f);
+        _gradientLayer.endPoint = CGPointMake(0.f, 1.f);
+    }
+    return _gradientLayer;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E213B656-BB8D-4197-A519-A291BC26A5F1</string>
+	<string>FBAD05C7-6396-45E6-AA40-C83682E6FDF5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>t11</string>
+	<string>gradient</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>fix ios11 tableView-t11</string>
+	<string>gradientLayer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
