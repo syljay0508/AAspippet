@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (UIButton *)&lt;#button#&gt; {
     if (_&lt;#button#&gt; == nil) {
-        _&lt;#button#&gt; = [UIButton new];
+        _&lt;#button#&gt; = [[UIButton alloc] init];
         [_&lt;#button#&gt; setTitleColor:[UIColor kep_colorFromHex:&lt;#0x333333#&gt;] forState:UIControlStateNormal];
         [_&lt;#button#&gt; setBackgroundColor:[UIColor kep_colorFromHex:&lt;#0x333333#&gt;]];
         [_&lt;#button#&gt; setTitle:KEPLocalizedString(@"&lt;#Button#&gt;") forState:UIControlStateNormal];

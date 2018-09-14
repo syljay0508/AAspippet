@@ -11,7 +11,6 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#import &lt;Masonry/Masonry.h&gt;
 #import &lt;KEPCommon/KEPCommon.h&gt;
-#import "DeviceManager.h"
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AE53CA9A-95CF-41F6-A094-47B0DAD54289</string>

@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (UILabel *)&lt;#(label)#&gt; {
     if (_&lt;#(label)#&gt; == nil) {
-        _&lt;#(label)#&gt; = [UILabel new];
+        _&lt;#(label)#&gt; = [[UILabel alloc] init];
         _&lt;#(label)#&gt;.textColor = [UIColor kep_colorFromHex:&lt;#0x333333#&gt;];
         _&lt;#(label)#&gt;.font = [UIFont kep_regularPingFangSCWithSize:&lt;#18#&gt;];
         _&lt;#(label)#&gt;.textAlignment = NSTextAlignment&lt;#Left#&gt;;

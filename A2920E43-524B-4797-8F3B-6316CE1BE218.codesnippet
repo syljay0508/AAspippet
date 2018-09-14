@@ -11,7 +11,9 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (UIImageView *)&lt;#imageView#&gt; {
     if (_&lt;#imageView#&gt; == nil) {
-        _&lt;#imageView#&gt; = [UIImageView new];
+        _&lt;#imageView#&gt; = [[UIImageView alloc] init];
+        _&lt;#imageView#&gt;.contentMode = UIViewContentModeScaleAspectFill;
+        _&lt;#imageView#&gt;.clipsToBounds = YES;
     }
     return _&lt;#imageView#&gt;;
 }</string>
